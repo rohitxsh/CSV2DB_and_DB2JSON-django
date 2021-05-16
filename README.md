@@ -12,7 +12,7 @@ Setup DB:
 Run the app:
 1. Install virtualenv: > pip install virtualenv
 2. Create a virtual enviornment: > virtualenv <virtual_enviornment_name>
-3. Activate the virtual enviornment: > .\<virtual_enviornment_name>\Scripts\activate.bat
+3. Activate the virtual enviornment: > .\\<virtual_enviornment_name>\Scripts\activate.bat
 4. Install all the dependencies: > pip install -r requirements.txt
 5. Run the migrate commands: > python manage.py migrate
 6. Run the app: > python manage.py runserver
