@@ -39,7 +39,8 @@ def index(request):
 
         #inserting the dataframe into sql database using executemany to achieve better performance
         q= """Insert into converter_csvdata (Region, Country, Item_Type, Sales_Channel, Order_Priority, Order_ID, Order_Date,  Ship_Date, Units_Sold, Unit_Price, Unit_Cost, Total_Revenue, Total_Cost, Total_Profit) values (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s);"""
-        cnx = mysql.connector.connect(user='root', password='3497', database='django1',autocommit=True)
+        #no password
+        cnx = mysql.connector.connect(user='root', password='', database='django1',autocommit=True)
         cursor = cnx.cursor()
         #clearing up the data to insert new data
         #incase if you don't want to clear up the table just comment the line below
