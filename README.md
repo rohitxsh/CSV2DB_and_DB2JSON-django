@@ -7,7 +7,7 @@ Instructions to run the app:
 Setup DB:
 1. Run your MySQL server with user root and no password configuration or change the mysql connector code accordingly to add the password.
 2. Run the following command in mysql shell > set global max_allowed_packet=67108864; (The sample file is of very large size and default allowed packet limit in mysql won't allow the program to insert the all the data which will result in an error)
-3. Create a database names 'django1'
+3. Create a database named 'django1'
 
 Run the app:
 1. Install virtualenv: > pip install virtualenv
