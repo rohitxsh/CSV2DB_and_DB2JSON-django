@@ -16,6 +16,6 @@ Run the app:
 4. Install all the dependencies: > pip install -r requirements.txt
 5. Run the migrate commands: > python manage.py migrate
 6. Run the app: > python manage.py runserver
-7. Access the app on: > localhost:8000
-Try out the app :)
+7. Access the app on: > localhost:8000 \
+Try out the app :) \
 8. Once done you can deactivate the virtual enviornment: > .\\<virtual_enviornment_name>\Scripts\deactivate.bat
